@@ -34,7 +34,7 @@ class BlogHeader extends StatelessWidget {
             ),
             Text(
               _subheaderText,
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.subtitle1,
             ),
           ],
         ),
