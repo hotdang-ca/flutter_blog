@@ -1,3 +1,4 @@
+import 'package:blog/config/strings.dart';
 import 'package:blog/widgets/main_nav_section_menu_item.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,12 @@ class MainNavigationSectionMenu extends StatelessWidget {
       const EdgeInsets.symmetric(vertical: 16.0, horizontal: 8.0);
 
   /// Sections to list on the side navbar
-  final List<String> _sections = ['Home', 'Blog', 'Projects', 'About'];
+  final List<String> _sections = [
+    Strings.navigationHomeLabel,
+    Strings.navigationBlogLabel,
+    Strings.navigationProjectsLabel,
+    Strings.navigationAboutLabel,
+  ];
 
   @override
   Widget build(BuildContext context) {

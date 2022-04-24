@@ -1,3 +1,4 @@
+import 'package:blog/config/strings.dart';
 import 'package:blog/widgets/header.dart';
 import 'package:blog/widgets/main_nav.dart';
 import 'package:flutter/material.dart';
@@ -11,8 +12,8 @@ class BlogApp extends StatelessWidget {
       body: Column(
         children: <Widget>[
           BlogHeader(
-            headerText: 'James Robert Perih',
-            subheaderText: 'Tetris, Management, and sometimes both',
+            headerText: Strings.headerSubtitleLabel,
+            subheaderText: Strings.headerTitleLabel,
           ),
           Row(
             children: const [
