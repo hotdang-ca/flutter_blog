@@ -15,7 +15,7 @@ class BlogApp extends StatelessWidget {
             subheaderText: 'Tetris, Management, and sometimes both',
           ),
           Row(
-            children: [
+            children: const [
               MainNavigation(),
             ],
           ),
