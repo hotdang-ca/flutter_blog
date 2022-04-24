@@ -1,4 +1,5 @@
 import 'package:blog/widgets/header.dart';
+import 'package:blog/widgets/main_nav.dart';
 import 'package:flutter/material.dart';
 
 class BlogApp extends StatelessWidget {
@@ -13,8 +14,10 @@ class BlogApp extends StatelessWidget {
             headerText: 'James Robert Perih',
             subheaderText: 'Tetris, Management, and sometimes both',
           ),
-          const Center(
-            child: Text('Hello'),
+          Row(
+            children: [
+              MainNavigation(),
+            ],
           ),
         ],
       ),
